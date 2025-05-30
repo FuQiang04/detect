@@ -1,6 +1,7 @@
 项目所需额外文件：
 
-1.需要在本目录下存放bert-base-chinese文件夹，下载地址https://hf-mirror.com/google-bert/bert-base-chinese/tree/main，将里面的所有文件下载并打包成bert-base-chinese文件夹
+1.需要在本目录下存放bert-base-chinese文件夹，下载地址https://hf-mirror.com/google-bert/bert-base-chinese/tree/main
+，将里面的所有文件下载并打包成bert-base-chinese文件夹
 
 2.需要在本目录下存放data文件夹，其中包含两个文件夹，分别为cyberbullying和non_cyberbullying文件夹，分别存放了恶意图片和非恶意图片
 
