@@ -4,7 +4,7 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
 
-df = pd.read_csv('data.csv', encoding='gbk')  # 替换为你的数据文件名
+df = pd.read_csv('data.csv', encoding='utf-8')  # 替换为你的数据文件名
 train_df, val_df = train_test_split(df, test_size=0.1, random_state=42)
 
 # 2. 定义Dataset
