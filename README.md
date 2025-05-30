@@ -15,3 +15,7 @@
 项目运行：
 
 运行generate_descriptions.py生成data.csv，运行train.py生成bert模型，运行api.py打开页面
+
+温馨提示：
+
+若用摄像头录制视频上传的话，请尽量做点动作，要不然大模型会将视频视作静态的图片
